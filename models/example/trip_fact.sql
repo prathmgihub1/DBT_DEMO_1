@@ -7,6 +7,7 @@ with trips as (
     USERTYPE,
 
     from {{ source('src_my_name', 'bike') }}
+
 )
 
 select * from trips
